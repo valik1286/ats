@@ -1,7 +1,7 @@
 # C:\Users\Admin\Desktop\My_ATS_Project\pyproject.toml
 
 [project]
-name = "my-ats-system" # Нова назва пакета
+name = "my-ats" # Нова назва пакета
 version = "1.0.0"
 authors = [
   { name="valik1286", email="infofaste.org.ua@gmail.com" }, # Заміни на свою пошту
@@ -20,4 +20,5 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
+
 where = ["."] # Шукати пакети в поточній директорії (тобто папку 'ats')
